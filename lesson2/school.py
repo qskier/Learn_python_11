@@ -7,10 +7,11 @@ users = [
 {'school_class': '7a', 'scores': [5,5,5,5,4]} ]
 
 for x in users:
-	av_oc_user=sum(x['scores'])/len(x['scores'])
-	
-	print(av_oc_user)
-	print(len(users))
+	score_user=x['scores']
+	av_score_user=sum(score_user)/len(score_user)
+	print(av_score_user)
+
+print(len(users))
 
 
 	
